@@ -11,8 +11,8 @@ package TejadaTLP_Act104;
 import javax.swing.*;
 import java.text.*;
 
-public class MyAverage2 {
-    public static void main(String[] args) {
+public class MyAverage2 extends javax.swing.JFrame {
+    MyAverage2() {
         double q1, q2, q3, ave;
 
         q1 = Double.parseDouble(JOptionPane.showInputDialog("Enter LQ1 : "));

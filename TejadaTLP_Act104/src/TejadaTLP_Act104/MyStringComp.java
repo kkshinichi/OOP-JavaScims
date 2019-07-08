@@ -10,16 +10,18 @@ package TejadaTLP_Act104;
 
 import javax.swing.*;
 
-public class MyStringComp {
-    public static void main(String[] args) {
+public class MyStringComp extends javax.swing.JFrame {
+    MyStringComp() {
         String pword, pword2;
     
         pword = JOptionPane.showInputDialog("Register your password: ");
         pword2 = JOptionPane.showInputDialog("Enter your password: ");
     
         if(pword2.equals(pword))
-            System.out.println("Congratulations, access granted.");
+            JOptionPane.showMessageDialog(null, "Congratulations, access granted.");
+            // System.out.println("Congratulations, access granted.");
         else
-            System.out.println("Access denied.");
+            JOptionPane.showMessageDialog(null, "Access Denied.");
+            // System.out.println("Access denied.");
     }
 }

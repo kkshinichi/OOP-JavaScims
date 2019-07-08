@@ -10,8 +10,8 @@ package TejadaTLP_Act104;
 
 import javax.swing.*;
 
-public class MyIfElse {
-    public static void main(String[] args) {
+public class MyIfElse extends javax.swing.JFrame {
+    MyIfElse() {
         int q1, q2, q3, ave;
         q1 = Integer.parseInt(JOptionPane.showInputDialog("Enter LQ1 : "));
         q2 = Integer.parseInt(JOptionPane.showInputDialog("Enter LQ2 : "));

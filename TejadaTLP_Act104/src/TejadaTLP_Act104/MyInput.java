@@ -10,8 +10,8 @@ package TejadaTLP_Act104;
 
 import javax.swing.*;
 
-public class MyInput {
-    public static void main(String[] args) {
+public class MyInput extends javax.swing.JFrame {
+    MyInput() {
         String name;
 
         name = JOptionPane.showInputDialog("Enter name: ");

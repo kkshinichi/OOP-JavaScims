@@ -10,8 +10,8 @@ package TejadaTLP_Act104;
 
 import javax.swing.*;
 
-public class MyAverage1 {
-    public static void main(String[] args) {
+public class MyAverage1 extends javax.swing.JFrame {
+    MyAverage1() {
         double q1, q2, q3/*, ave*/;
 
         q1 = Double.parseDouble(JOptionPane.showInputDialog("Enter LQ1 : "));
@@ -19,6 +19,7 @@ public class MyAverage1 {
         q3 = Double.parseDouble(JOptionPane.showInputDialog("Enter LQ3 : "));
 
         JOptionPane.showMessageDialog(null, "(" + q1 + " + " + q2 + " + " + q3 + ") / 3  = " + ((q1 + q2 + q3) / 3));
-
+        // System.out.println("(" + q1 + " + " + q2 + " + " + q3 + ") / 3  = " + ((q1 + q2 + q3) / 3));
+        new MyAverage1().setVisible(false);
     }
 }

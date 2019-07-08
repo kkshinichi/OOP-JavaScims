@@ -12,7 +12,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class ButtonFrame implements ActionListener{
+public class ButtonFrame implements ActionListener {
     Frame woot;
 
     Button MyAverage1, MyAverage2, MyIfElse, MyInput;
@@ -60,47 +60,30 @@ public class ButtonFrame implements ActionListener{
 
     public void actionPerformed(ActionEvent ae) {
         if(ae.getActionCommand().equals("MyAverage1")) {
-            label.setText("Hello MyAverage1");
-            woot.add(label);
-            woot.setVisible(true);
+            new MyAverage1().setVisible(true);
         }
-        if(ae.getActionCommand().equals("MyAverage2")) {
-            label.setText("Hello MyAverage2");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("MyAverage2")) {
+            new MyAverage2().setVisible(true);
         }
-        if(ae.getActionCommand().equals("MyIfElse")) {
-            label.setText("Hello MyIfElse");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("MyIfElse")) {
+            new MyIfElse().setVisible(true);
         }
-        if(ae.getActionCommand().equals("MyInput")) {
-            label.setText("Hello MyInput");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("MyInput")) {
+            new MyInput().setVisible(true);
         }
-        if(ae.getActionCommand().equals("MyLoop")) {
-            label.setText("Hello MyLoop");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("MyLoop")) {
+            new MyLoop().setVisible(true);
         }
-        if(ae.getActionCommand().equals("MyPword")) {
-            label.setText("Hello MyPword");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("MyPword")) {
+            new MyPword().setVisible(true);
         }
-        if(ae.getActionCommand().equals("MyStringComp")) {
-            label.setText("Hello MyStringComp");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("MyStringComp")) {
+            new MyStringComp().setVisible(true);
         }
-        if(ae.getActionCommand().equals("TestMyFrame")) {
-            label.setText("Hello TestMyFrame");
-            woot.add(label);
-            woot.setVisible(true);
+        else if(ae.getActionCommand().equals("TestMyFrame")) {
+            new TestMyFrame().setVisible(true);
         }
-        if(ae.getActionCommand().equals("Exit")) {
+        else if(ae.getActionCommand().equals("Exit"))
             System.exit(0);
-        }
     }
 }

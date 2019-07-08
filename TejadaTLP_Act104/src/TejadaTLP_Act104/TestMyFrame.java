@@ -9,6 +9,7 @@ LAB ACTIVITY 104 - BASIC JAVA PROGRAMMING
 package TejadaTLP_Act104;
 
 import java.awt.*;
+import javax.swing.*;
 
 class ButtonFrame extends Frame {
     ButtonFrame(String s) {
@@ -21,8 +22,8 @@ class ButtonFrame extends Frame {
     }
 }
 
-public class TestMyFrame {
-    public static void main(String[] args) {
+public class TestMyFrame extends javax.swing.JFrame {
+    TestMyFrame() {
         new ButtonFrame("Example 5");
     }
 }

@@ -10,20 +10,31 @@ package TejadaTLP_Act104;
 
 import javax.swing.*;
 
-public class MyPword {
-    public static void main(String[] args) {
+public class MyPword extends javax.swing.JFrame {
+    MyPword() {
         String pword, pword2;
+        int wew;
 
         pword = JOptionPane.showInputDialog("Register your password : ");
 
         JPasswordField varA = new JPasswordField();
-        JOptionPane.showConfirmDialog(null, varA, "Enter your password : ",JOptionPane.OK_CANCEL_OPTION);
+        wew = JOptionPane.showConfirmDialog(null, varA, "Enter your password : ",JOptionPane.OK_CANCEL_OPTION);
 
         pword2 = new String(varA.getPassword());
 
-        if(pword2.equals(pword))
-            System.out.println("Congratulations, access granted.");
+        if(wew == JOptionPane.OK_OPTION) {
+            if(pword2.equals(pword)) {   
+                JOptionPane.showMessageDialog(null, "Congratulations, access granted.");
+                // System.out.println("Congratulations, access granted.");
+            }
+            else {
+                JOptionPane.showMessageDialog(null, "Access Denied.");
+                // System.out.println("Access Denied.");
+            }
+        }
+        else if(wew == JOptionPane.CANCEL_OPTION)
+            System.exit(0);
         else
-            System.out.println("Access Denied.");
+            System.exit(0);
     }   
 }
