@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberToWord",
+            "request": "launch",
+            "mainClass": "tejadatlp_liveexer02.NumberToWord",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TejadaTLP_LiveExer02_Scrim02",
+            "request": "launch",
+            "mainClass": "tejadatlp_liveexer02.TejadaTLP_LiveExer02_Scrim02",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TejadaTLP_LiveExer02",
+            "request": "launch",
+            "mainClass": "tejadatlp_liveexer02.TejadaTLP_LiveExer02"
+        }
+    ]
+}
