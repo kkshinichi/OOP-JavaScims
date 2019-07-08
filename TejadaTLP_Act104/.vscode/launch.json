@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestMyFrame",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.TestMyFrame",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyStringComp",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyStringComp",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyPword",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyPword",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyLoop",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyLoop",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyInput",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyInput",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyIfElse",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyIfElse",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyAverage2",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyAverage2",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyAverage1",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.MyAverage1",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TejadaTLP_Act104",
+            "request": "launch",
+            "mainClass": "TejadaTLP_Act104.TejadaTLP_Act104",
+            "projectName": "TejadaTLP_Act104_3cee47fd"
+        }
+    ]
+}
